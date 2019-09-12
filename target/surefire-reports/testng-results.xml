@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13041" started-at="2019-09-12T13:32:34Z" finished-at="2019-09-12T13:32:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13041" started-at="2019-09-12T13:32:34Z" finished-at="2019-09-12T13:32:47Z">
+      <class name="Google.GoogleSearch">
+        <test-method status="PASS" signature="LaunchURL()[pri:1, instance:Google.GoogleSearch@75f65e45]" name="LaunchURL" duration-ms="10376" started-at="2019-09-12T13:32:34Z" finished-at="2019-09-12T13:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="TitleTest()[pri:2, instance:Google.GoogleSearch@75f65e45]" name="TitleTest" duration-ms="31" started-at="2019-09-12T13:32:44Z" finished-at="2019-09-12T13:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest -->
+        <test-method status="PASS" signature="TitleTest2()[pri:3, instance:Google.GoogleSearch@75f65e45]" name="TitleTest2" duration-ms="2212" started-at="2019-09-12T13:32:44Z" finished-at="2019-09-12T13:32:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleTest2 -->
+      </class> <!-- Google.GoogleSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
