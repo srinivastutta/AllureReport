@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="15.421" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.379" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -64,7 +64,22 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="LaunchURL" classname="Google.GoogleSearch" time="10.377"/>
-  <testcase name="TitleTest" classname="Google.GoogleSearch" time="0.038"/>
-  <testcase name="TitleTest2" classname="Google.GoogleSearch" time="2.209"/>
+  <testcase name="TitleTest" classname="Google.GoogleSearch" time="0.148"/>
+  <testcase name="TitleTest2" classname="Google.GoogleSearch" time="0.694">
+    <failure message="expected [Google1] but found [Google]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Google1] but found [Google]
+	at Google.GoogleSearch.TitleTest2(GoogleSearch.java:49)
+</failure>
+    <system-out><![CDATA[I am in onTestSuccess method TitleTest succeed
+I am in onTestStart method TitleTest2 start
+I am in onTestStart method TitleTest2 start
+I am in onTestFailure method TitleTest2 failed
+Screenshot captured for test case:TitleTest2
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 4744
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Sep 13, 2019 5:35:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
 </testsuite>
