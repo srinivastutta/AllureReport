@@ -47,7 +47,7 @@ public class GoogleSearch {
 	@Description("Test Case Description: Verify Title Test")
 	public void TitleTest2() {
 		String Title=driver.getTitle();
-		Assert.assertEquals(Title, "Google1");
+		Assert.assertEquals(Title, "Google");
 		
 	}
 	@AfterMethod
