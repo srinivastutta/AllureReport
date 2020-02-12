@@ -14,7 +14,7 @@ public class Base {
 	public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
 
 	public  WebDriver Initilization() {
-		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Selenium Setup Files\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Workspace\\AllureReport\\src\\main\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();

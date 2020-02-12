@@ -1,44 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="35.847" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.124" tests="6" errors="0" skipped="5" failures="1">
   <properties>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8090/job/AllureReportJob/1/display/redirect"/>
-    <property name="HUDSON_HOME" value="C:\Users\pc\.jenkins"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/AllureReportJob/6/display/redirect"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8090/job/AllureReportJob/1/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/AllureReportJob/6/display/redirect?page=changes"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="WINSW_SERVICE_ID" value="Jenkins"/>
     <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="ANDROID_HOME" value="E:\Softwares\Android-sdk"/>
     <property name="SystemDrive" value="C:"/>
-    <property name="=ExitCode" value="00000000"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="JENKINS_SERVER_COOKIE" value="810ecea2ebeb2b7b"/>
-    <property name="USERNAME" value="pc"/>
+    <property name="JENKINS_SERVER_COOKIE" value="3ac6086658f82e79"/>
+    <property name="SERVICE_ID" value="Jenkins"/>
+    <property name="USERNAME" value="DESKTOP-6NI868R$"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="JENKINS_URL" value="http://localhost:8090/"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.2 C:\Users\pc\.jenkins\war\WEB-INF\lib\remoting-3.33.jar C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 57611"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.6.2 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.36.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 62582"/>
     <property name="maven.home" value="C:\apache-maven-3.6.2"/>
     <property name="jdk.debug" value="release"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="POM_GROUPID" value="AllureReport"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2019-07-16"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.4"/>
-    <property name="JENKINS_HOME" value="C:\Users\pc\.jenkins"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="file.separator" value="\"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="HOMEPATH" value="\Users\pc"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 78 Stepping 3, GenuineIntel"/>
-    <property name="maven3.interceptor" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
     <property name="PATH+MAVEN" value="C:\apache-maven-3.6.2/bin"/>
-    <property name="maven3.interceptor.common" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="windir" value="C:\WINDOWS"/>
@@ -46,18 +48,17 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.4+10-LTS"/>
     <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.4"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.name" value="pc"/>
-    <property name="OneDrive" value="C:\Users\pc\OneDrive"/>
+    <property name="user.name" value="DESKTOP-6NI868R$"/>
+    <property name="POM_ARTIFACTID" value="AllureReport"/>
+    <property name="OneDrive" value="C:\Windows\system32\config\systemprofile\OneDrive"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="=C:" value="C:\Program Files (x86)\Jenkins"/>
-    <property name="APPDATA" value="C:\Users\pc\AppData\Roaming"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="HUDSON_URL" value="http://localhost:8090/"/>
-    <property name="WORKSPACE" value="C:\Users\pc\.jenkins\workspace\AllureReportJob"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\AllureReportJob"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps"/>
-    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-11.0.4/bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\nodejs\;E:\Softwares\Android-sdk\platform-tools;E:\Softwares\Android-sdk\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
     <property name="java.version" value="11.0.4"/>
     <property name="COMPUTERNAME" value="DESKTOP-6NI868R"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -66,46 +67,48 @@
     <property name="sun.os.patch.level" value=""/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;."/>
-    <property name="BUILD_NUMBER" value="1"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.4\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.6.2/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\Program Files\Java\jdk-11.0.4/bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_181\bin;C:\apache-maven-3.6.2\bin;C:\Program Files\Git\cmd;C:\allure-2.12.1\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\nodejs\;E:\Softwares\Android-sdk\platform-tools;E:\Softwares\Android-sdk\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="BUILD_NUMBER" value="6"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="BUILD_URL" value="http://localhost:8090/job/AllureReportJob/1/"/>
-    <property name="HOMEDRIVE" value="C:"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/AllureReportJob/6/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="POM_DISPLAYNAME" value="AllureReport"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.desktop" value="windows"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-6NI868R"/>
     <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="JOB_URL" value="http://localhost:8090/job/AllureReportJob/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/AllureReportJob/"/>
     <property name="SynaProgDir" value="Synaptics\SynTP"/>
-    <property name="java.class.path" value="C:\Users\pc\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.2\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.2/conf/logging"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.6.2\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.6.2/conf/logging"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
-    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\PowerShell\Modules\"/>
     <property name="user.variant" value=""/>
     <property name="MAVEN_HOME" value="C:\apache-maven-3.6.2"/>
-    <property name="user.timezone" value="Africa/Harare"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
     <property name="maven.conf" value="C:\apache-maven-3.6.2\conf"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="11"/>
-    <property name="user.country" value="IN"/>
+    <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="BUILD_TAG" value="jenkins-AllureReportJob-1"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="BUILD_TAG" value="jenkins-AllureReportJob-6"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
-    <property name="user.home" value="C:\Users\pc"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="user.language" value="en"/>
     <property name="ProgramData" value="C:\ProgramData"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8090/job/AllureReportJob/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/AllureReportJob/display/redirect"/>
     <property name="M2_HOME" value="C:\apache-maven-3.6.2"/>
-    <property name="LOCALAPPDATA" value="C:\Users\pc\AppData\Local"/>
-    <property name="USERDOMAIN" value="DESKTOP-6NI868R"/>
-    <property name="LOGONSERVER" value="\\DESKTOP-6NI868R"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="path.separator" value=";"/>
-    <property name="BUILD_ID" value="1"/>
+    <property name="BUILD_ID" value="6"/>
     <property name="os.version" value="10.0"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JOB_NAME" value="AllureReportJob"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="NODE_LABELS" value="master"/>
@@ -116,20 +119,85 @@
     <property name="OS" value="Windows_NT"/>
     <property name="user.dir" value="E:\Selenium\Workspace\AllureReport"/>
     <property name="os.arch" value="amd64"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="HUDSON_SERVER_COOKIE" value="810ecea2ebeb2b7b"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="HUDSON_SERVER_COOKIE" value="3ac6086658f82e79"/>
     <property name="PROCESSOR_REVISION" value="4e03"/>
     <property name="CLASSPATH" value=""/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="TEMP" value="C:\Users\pc\AppData\Local\Temp"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.4+10-LTS"/>
-    <property name="USERPROFILE" value="C:\Users\pc"/>
-    <property name="TMP" value="C:\Users\pc\AppData\Local\Temp"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="TitleTest" classname="Google.GoogleSearch" time="0.143"/>
-  <testcase name="TitleTest2" classname="Google.GoogleSearch" time="0.014"/>
+  <testcase name="SetUp" classname="Google.GoogleSearch" time="15.417">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00DCA903+1550595]&#10;	Ordinal0 [0x00D4A701+1025793]&#10;	Ordinal0 [0x00CCC6E5+509669]&#10;	Ordinal0 [0x00C5FC68+64616]&#10;	Ordinal0 [0x00C5C594+50580]&#10;	Ordinal0 [0x00C7ACE7+175335]&#10;	Ordinal0 [0x00C7A8ED+174317]&#10;	Ordinal0 [0x00C78CDB+167131]&#10;	Ordinal0 [0x00C6144A+70730]&#10;	Ordinal0 [0x00C624D0+74960]&#10;	Ordinal0 [0x00C62469+74857]&#10;	Ordinal0 [0x00D642C7+1131207]&#10;	GetHandleVerifier [0x00E670FD+523789]&#10;	GetHandleVerifier [0x00E66E90+523168]&#10;	GetHandleVerifier [0x00E6E1E7+552695]&#10;	GetHandleVerifier [0x00E678FA+525834]&#10;	Ordinal0 [0x00D5B7FC+1095676]&#10;	Ordinal0 [0x00D6633B+1139515]&#10;	Ordinal0 [0x00D664A3+1139875]&#10;	Ordinal0 [0x00D65425+1135653]&#10;	BaseThreadInitThunk [0x76006359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77787B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77787B44+180]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-6NI868R', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DCA903+1550595]
+	Ordinal0 [0x00D4A701+1025793]
+	Ordinal0 [0x00CCC6E5+509669]
+	Ordinal0 [0x00C5FC68+64616]
+	Ordinal0 [0x00C5C594+50580]
+	Ordinal0 [0x00C7ACE7+175335]
+	Ordinal0 [0x00C7A8ED+174317]
+	Ordinal0 [0x00C78CDB+167131]
+	Ordinal0 [0x00C6144A+70730]
+	Ordinal0 [0x00C624D0+74960]
+	Ordinal0 [0x00C62469+74857]
+	Ordinal0 [0x00D642C7+1131207]
+	GetHandleVerifier [0x00E670FD+523789]
+	GetHandleVerifier [0x00E66E90+523168]
+	GetHandleVerifier [0x00E6E1E7+552695]
+	GetHandleVerifier [0x00E678FA+525834]
+	Ordinal0 [0x00D5B7FC+1095676]
+	Ordinal0 [0x00D6633B+1139515]
+	Ordinal0 [0x00D664A3+1139875]
+	Ordinal0 [0x00D65425+1135653]
+	BaseThreadInitThunk [0x76006359+25]
+	RtlGetAppContainerNamedObjectPath [0x77787B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77787B44+180]
+
+	at Google.GoogleSearch.SetUp(GoogleSearch.java:33)
+</failure>
+    <system-out><![CDATA[I am in onStart method Test
+I am in onStart method Test
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 9432
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="SetUp" classname="Google.GoogleSearch" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="TitleTest" classname="Google.GoogleSearch" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00DCA903+1550595]&#10;	Ordinal0 [0x00D4A701+1025793]&#10;	Ordinal0 [0x00CCC6E5+509669]&#10;	Ordinal0 [0x00C5FC68+64616]&#10;	Ordinal0 [0x00C5C594+50580]&#10;	Ordinal0 [0x00C7ACE7+175335]&#10;	Ordinal0 [0x00C7A8ED+174317]&#10;	Ordinal0 [0x00C78CDB+167131]&#10;	Ordinal0 [0x00C6144A+70730]&#10;	Ordinal0 [0x00C624D0+74960]&#10;	Ordinal0 [0x00C62469+74857]&#10;	Ordinal0 [0x00D642C7+1131207]&#10;	GetHandleVerifier [0x00E670FD+523789]&#10;	GetHandleVerifier [0x00E66E90+523168]&#10;	GetHandleVerifier [0x00E6E1E7+552695]&#10;	GetHandleVerifier [0x00E678FA+525834]&#10;	Ordinal0 [0x00D5B7FC+1095676]&#10;	Ordinal0 [0x00D6633B+1139515]&#10;	Ordinal0 [0x00D664A3+1139875]&#10;	Ordinal0 [0x00D65425+1135653]&#10;	BaseThreadInitThunk [0x76006359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77787B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77787B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method TitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="Google.GoogleSearch" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestSkipped method TitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="teardown" classname="Google.GoogleSearch" time="0">
+    <skipped/>
+    <system-out><![CDATA[I am in onTestSkipped method TitleTest2 skipped
+]]></system-out>
+  </testcase>
+  <testcase name="TitleTest2" classname="Google.GoogleSearch" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-6NI868R&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.4&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00DCA903+1550595]&#10;	Ordinal0 [0x00D4A701+1025793]&#10;	Ordinal0 [0x00CCC6E5+509669]&#10;	Ordinal0 [0x00C5FC68+64616]&#10;	Ordinal0 [0x00C5C594+50580]&#10;	Ordinal0 [0x00C7ACE7+175335]&#10;	Ordinal0 [0x00C7A8ED+174317]&#10;	Ordinal0 [0x00C78CDB+167131]&#10;	Ordinal0 [0x00C6144A+70730]&#10;	Ordinal0 [0x00C624D0+74960]&#10;	Ordinal0 [0x00C62469+74857]&#10;	Ordinal0 [0x00D642C7+1131207]&#10;	GetHandleVerifier [0x00E670FD+523789]&#10;	GetHandleVerifier [0x00E66E90+523168]&#10;	GetHandleVerifier [0x00E6E1E7+552695]&#10;	GetHandleVerifier [0x00E678FA+525834]&#10;	Ordinal0 [0x00D5B7FC+1095676]&#10;	Ordinal0 [0x00D6633B+1139515]&#10;	Ordinal0 [0x00D664A3+1139875]&#10;	Ordinal0 [0x00D65425+1135653]&#10;	BaseThreadInitThunk [0x76006359+25]&#10;	RtlGetAppContainerNamedObjectPath [0x77787B74+228]&#10;	RtlGetAppContainerNamedObjectPath [0x77787B44+180]&#10;"/>
+    <system-out><![CDATA[I am in onTestSkipped method TitleTest2 skipped
+]]></system-out>
+  </testcase>
 </testsuite>

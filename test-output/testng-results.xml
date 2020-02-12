@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29166" started-at="2019-10-25T13:03:17Z" finished-at="2019-10-25T13:03:47Z">
+  <suite name="Default suite" duration-ms="31406" started-at="2020-02-12T17:13:59Z" finished-at="2020-02-12T17:14:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29166" started-at="2019-10-25T13:03:17Z" finished-at="2019-10-25T13:03:47Z">
+    <test name="Default test" duration-ms="31406" started-at="2020-02-12T17:13:59Z" finished-at="2020-02-12T17:14:31Z">
       <class name="Google.GoogleSearch">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="SetUp" is-config="true" duration-ms="14266" started-at="2019-10-25T13:03:17Z" finished-at="2019-10-25T13:03:32Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="SetUp" is-config="true" duration-ms="15701" started-at="2020-02-12T17:13:59Z" finished-at="2020-02-12T17:14:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="TitleTest()[pri:1, instance:Google.GoogleSearch@23f7d05d]" name="TitleTest" duration-ms="121" started-at="2019-10-25T13:03:32Z" description="TitleTest" finished-at="2019-10-25T13:03:32Z">
+        <test-method status="PASS" signature="TitleTest()[pri:1, instance:Google.GoogleSearch@23f7d05d]" name="TitleTest" duration-ms="701" started-at="2020-02-12T17:14:16Z" description="TitleTest" finished-at="2020-02-12T17:14:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="teardown" is-config="true" duration-ms="843" started-at="2019-10-25T13:03:32Z" finished-at="2019-10-25T13:03:33Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="teardown" is-config="true" duration-ms="833" started-at="2020-02-12T17:14:17Z" finished-at="2020-02-12T17:14:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="SetUp" is-config="true" duration-ms="12370" started-at="2019-10-25T13:03:33Z" finished-at="2019-10-25T13:03:45Z">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="SetUp" is-config="true" duration-ms="12054" started-at="2020-02-12T17:14:18Z" finished-at="2020-02-12T17:14:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="TitleTest2()[pri:2, instance:Google.GoogleSearch@23f7d05d]" name="TitleTest2" duration-ms="5" started-at="2019-10-25T13:03:45Z" description="TitleTest1" finished-at="2019-10-25T13:03:45Z">
+        <test-method status="PASS" signature="TitleTest2()[pri:2, instance:Google.GoogleSearch@23f7d05d]" name="TitleTest2" duration-ms="89" started-at="2020-02-12T17:14:30Z" description="TitleTest1" finished-at="2020-02-12T17:14:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TitleTest2 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="teardown" is-config="true" duration-ms="1190" started-at="2019-10-25T13:03:45Z" finished-at="2019-10-25T13:03:47Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="teardown" is-config="true" duration-ms="961" started-at="2020-02-12T17:14:30Z" finished-at="2020-02-12T17:14:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
