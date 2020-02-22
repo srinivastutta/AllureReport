@@ -16,6 +16,7 @@ public class Base {
 	public  WebDriver Initilization() {
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\Workspace\\AllureReport\\src\\main\\resources\\chromedriver.exe");
 		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
 		driver.manage().window().fullscreen();

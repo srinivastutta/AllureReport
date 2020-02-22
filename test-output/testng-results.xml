@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31406" started-at="2020-02-12T17:13:59Z" finished-at="2020-02-12T17:14:31Z">
+  <suite name="Default suite" duration-ms="26740" started-at="2020-02-22T17:43:17Z" finished-at="2020-02-22T17:43:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31406" started-at="2020-02-12T17:13:59Z" finished-at="2020-02-12T17:14:31Z">
-      <class name="Google.GoogleSearch">
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="SetUp" is-config="true" duration-ms="15701" started-at="2020-02-12T17:13:59Z" finished-at="2020-02-12T17:14:15Z">
+    <test name="Default test" duration-ms="26740" started-at="2020-02-22T17:43:17Z" finished-at="2020-02-22T17:43:44Z">
+      <class name="Google.freeCRM">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:Google.freeCRM@f8c1ddd]" name="OpenBrowser" is-config="true" duration-ms="17822" started-at="2020-02-22T17:43:17Z" finished-at="2020-02-22T17:43:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="TitleTest()[pri:1, instance:Google.GoogleSearch@23f7d05d]" name="TitleTest" duration-ms="701" started-at="2020-02-12T17:14:16Z" description="TitleTest" finished-at="2020-02-12T17:14:16Z">
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:Google.freeCRM@f8c1ddd]" name="loginTest" duration-ms="8513" started-at="2020-02-22T17:43:35Z" finished-at="2020-02-22T17:43:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TitleTest -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="teardown" is-config="true" duration-ms="833" started-at="2020-02-12T17:14:17Z" finished-at="2020-02-12T17:14:18Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Google.freeCRM@f8c1ddd]" name="TearDown" is-config="true" duration-ms="198" started-at="2020-02-22T17:43:44Z" finished-at="2020-02-22T17:43:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="SetUp()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="SetUp" is-config="true" duration-ms="12054" started-at="2020-02-12T17:14:18Z" finished-at="2020-02-12T17:14:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method status="PASS" signature="TitleTest2()[pri:2, instance:Google.GoogleSearch@23f7d05d]" name="TitleTest2" duration-ms="89" started-at="2020-02-12T17:14:30Z" description="TitleTest1" finished-at="2020-02-12T17:14:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TitleTest2 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Google.GoogleSearch@23f7d05d]" name="teardown" is-config="true" duration-ms="961" started-at="2020-02-12T17:14:30Z" finished-at="2020-02-12T17:14:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- Google.GoogleSearch -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- Google.freeCRM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

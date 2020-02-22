@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Google.GoogleSearch">
+      <class name="Google.freeCRM">
         <methods>
-          <include name="teardown"/>
-          <include name="SetUp"/>
-          <include name="TitleTest2"/>
+          <include name="loginTest"/>
+          <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- Google.GoogleSearch -->
+      </class> <!-- Google.freeCRM -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
