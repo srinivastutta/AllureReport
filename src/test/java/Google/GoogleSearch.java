@@ -3,7 +3,6 @@ package Google;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -23,8 +22,7 @@ public class GoogleSearch {
 	WebDriver driver;
 	public Base base;
 	public Properties prop;
-	public GooglePage googlePage;
-	
+
 	@BeforeMethod
 	public void SetUp() {
 	base = new Base();
@@ -32,7 +30,6 @@ public class GoogleSearch {
 	
 	driver=base.Initilization();	
 	driver.get(prop.getProperty("url"));
-	googlePage = new GooglePage();
 	}
 	
 	@Test(priority=1, description="TitleTest")

@@ -7,11 +7,20 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import Util.AllureListener;
 import Util.Base;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+
+@Listeners({AllureListener.class})
 
 public class freeCRM extends Base {
+	
+	
 
 	@BeforeClass
 	public void OpenBrowser() {
@@ -20,7 +29,9 @@ public class freeCRM extends Base {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority=1, description="CRMTest")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("Test Case Description: Clicking on Contacts")
 	public void loginTest() throws InterruptedException {
 		System.out.println("Login Test Started");
 		driver.findElement(By.xpath("//input[@name='email']"))
