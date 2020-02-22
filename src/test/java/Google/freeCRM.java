@@ -33,6 +33,7 @@ public class freeCRM extends Base {
 		String LoginName = NameElement.getText();
 		System.out.println(LoginName);
 		Assert.assertEquals(LoginName, "srinivas tutta");
+		
 
 		driver.findElement(By.xpath("//span[contains(text(),'Contacts')]")).click();
 
