@@ -1,1 +1,0 @@
-{"uuid":"fd64e27b-21eb-4ff3-8a38-f83323906756","name":"Google.freeCRM","children":["9a04a87a-92a9-435e-90a6-bb79183207a0"],"befores":[{"name":"OpenBrowser","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1582381545032,"stop":1582381559821}],"afters":[],"links":[],"start":1582381544995,"stop":1582381567168}
